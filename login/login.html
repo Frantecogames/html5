@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Acesso</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="overlay" id="loadingOverlay">
+            <div class="loading-content">
+                <img src="../img/chat-character.png" alt="Chat Character" class="chat-character">
+                <p>Estamos verificando suas credenciais...</p>
+                <div class="spinner"></div>
+            </div>
+        </div>
+        <form id="login-form">
+            <h1>Login</h1>
+            <div class="input-box">
+                <input type="text" placeholder="Usuário" required>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Senha" required>
+            </div>
+            <div class="remember-forgot">
+                <label><input type="checkbox"> Lembre-se</label>
+                <a href="#">Esqueceu a senha?</a>
+            </div>
+            <button type="submit" class="btn">Entrar</button>
+            <div class="registro-link">
+                <p>Não possui conta? <a href="../login/registro.html">Criar conta</a></p>
+            </div>
+        </form>
+    </div>
+    <div class="beta-tag">Versão Beta</div>
+    <script src="../js/entradahome.js"></script>
+</body>
+</html>
